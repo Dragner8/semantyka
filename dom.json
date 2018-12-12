@@ -1,0 +1,153 @@
+{
+	"places" : [
+		{
+			"name" : ["kuchnia"],
+			"id" : "E",
+			"devices" : [
+				{
+					"name" :[ "oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" :["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				},
+				{
+					"name" :[ "oswieltlenie pod szafkami"],
+					"id" : 3,
+					"actions" : [
+						{
+							"name" :["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				},
+				{
+					"name" :[ "oswieltlenie okapu"],
+					"id" : 4,
+					"actions" : [
+						{
+							"name" :["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				},
+				{
+					"name" :[ "okap"],
+					"id" : 5,
+					"actions" : [
+						{
+							"name" :["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						},
+						{
+							"name" : ["wolno"],
+							"id" : "fast"
+						},
+						{
+							"name" : ["szybko"],
+							"id" : "slow"
+						}
+					]
+				},
+				{
+					"name" :[ "wentylator"],
+					"id" : 6,
+					"actions" : [
+						{
+							"name" :["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				}
+
+			]
+		},
+		{
+			"name" : ["lazienka","toaleta"],
+			"id" : "C",
+			"devices" : [
+				{
+					"name" : ["oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				},
+				{
+					"name": ["lampa na lustrem"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				},
+				{
+					"name": ["wentylator"],
+					"id": 3,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				},
+
+				{
+					"name": ["dmuchawa"],
+					"id": 4,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on"
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off"
+						}
+					]
+				}
+
+			]
+		}
+	]
+}
