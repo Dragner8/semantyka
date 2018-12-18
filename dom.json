@@ -5,16 +5,18 @@
 			"id" : "E",
 			"devices" : [
 				{
-					"name" :[ "oswieltlenie gorne"],
+					"name" :[ "oswietlenie gorne"],
 					"id" : 1,
 					"actions" : [
 						{
 							"name" :["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				},
@@ -24,11 +26,13 @@
 					"actions" : [
 						{
 							"name" :["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				},
@@ -38,11 +42,13 @@
 					"actions" : [
 						{
 							"name" :["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				},
@@ -52,19 +58,23 @@
 					"actions" : [
 						{
 							"name" :["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						},
 						{
 							"name" : ["wolno"],
-							"id" : "fast"
+							"id" : "fast",
+							"value": null
 						},
 						{
 							"name" : ["szybko"],
-							"id" : "slow"
+							"id" : "slow",
+							"value": null
 						}
 					]
 				},
@@ -74,11 +84,13 @@
 					"actions" : [
 						{
 							"name" :["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				}
@@ -95,11 +107,13 @@
 					"actions" : [
 						{
 							"name" : ["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				},
@@ -109,11 +123,13 @@
 					"actions" : [
 						{
 							"name" : ["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				},
@@ -123,11 +139,13 @@
 					"actions" : [
 						{
 							"name" : ["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				},
@@ -138,11 +156,13 @@
 					"actions" : [
 						{
 							"name" : ["wlacz"],
-							"id" : "on"
+							"id" : "on",
+							"value": null
 						},
 						{
 							"name" : ["wylacz"],
-							"id" : "off"
+							"id" : "off",
+							"value": null
 						}
 					]
 				}
