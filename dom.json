@@ -1,6 +1,270 @@
 {
 	"places" : [
 		{
+			"name" : ["poddasze czesc pierwsza","oddasze sekcja pierwsza"],
+			"id" : "A",
+			"devices" : [
+				{
+					"name" : ["oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["oswietlenie biurka"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["radio","radyjko"],
+					"id": 3,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["ustaw głośność"],
+							"id" : "set",
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+						},
+						{
+							"name" : ["pogłośnij"],
+							"id" : "vol_up",
+							"value": null
+						},
+						{
+							"name" : ["pocisz"],
+							"id" : "vol_down",
+							"value": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : ["poddasze czesc druga", "poddasze sekcja druga"],
+			"id" : "A",
+			"devices" : [
+				{
+					"name" : ["oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa na lustrem"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				}
+
+
+			]
+		},
+		{
+			"name" : ["sypialnia"],
+			"id" : "B",
+			"devices" : [
+				{
+					"name" : ["oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa na lustrem"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				}
+
+
+			]
+		},
+
+
+		{
+			"name" : ["lazienka","toaleta"],
+			"id" : "C",
+			"devices" : [
+				{
+					"name" : ["oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa na lustrem"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["wentylator"],
+					"id": 3,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+
+				{
+					"name": ["dmuchawa"],
+					"id": 4,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				}
+
+			]
+		},
+		{
+			"name" : ["salon"],
+			"id" : "D",
+			"devices" : [
+				{
+					"name" : ["oswieltlenie gorne"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa na lustrem"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["wlacz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wylacz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				}
+
+
+			]
+		},
+
+		{
 			"name" : ["kuchnia"],
 			"id" : "E",
 			"devices" : [
@@ -84,78 +348,6 @@
 					"actions" : [
 						{
 							"name" :["wlacz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wylacz"],
-							"id" : "off",
-							"value": null
-						}
-					]
-				}
-
-			]
-		},
-		{
-			"name" : ["lazienka","toaleta"],
-			"id" : "C",
-			"devices" : [
-				{
-					"name" : ["oswieltlenie gorne"],
-					"id" : 1,
-					"actions" : [
-						{
-							"name" : ["wlacz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wylacz"],
-							"id" : "off",
-							"value": null
-						}
-					]
-				},
-				{
-					"name": ["lampa na lustrem"],
-					"id": 2,
-					"actions" : [
-						{
-							"name" : ["wlacz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wylacz"],
-							"id" : "off",
-							"value": null
-						}
-					]
-				},
-				{
-					"name": ["wentylator"],
-					"id": 3,
-					"actions" : [
-						{
-							"name" : ["wlacz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wylacz"],
-							"id" : "off",
-							"value": null
-						}
-					]
-				},
-
-				{
-					"name": ["dmuchawa"],
-					"id": 4,
-					"actions" : [
-						{
-							"name" : ["wlacz"],
 							"id" : "on",
 							"value": null
 						},
