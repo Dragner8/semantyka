@@ -1,7 +1,7 @@
 {
 	"places" : [
 		{
-			"name" : ["poddasze czesc pierwsza","oddasze sekcja pierwsza"],
+			"name" : ["poddasze czesc pierwsza","poddasze sekcja pierwsza","poddasze czesci pierwszej","poddasze sekcji pierwszej"],
 			"id" : "A",
 			"devices" : [
 				{

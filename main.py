@@ -9,17 +9,35 @@ def search(target ,input,json):
     return False,0,0
 
 
-
+def invoke_leven(x, input, counter, sensivity):
+    for word in x:
+        for i in input:
+            if levenshtein(word, i) <= sensivity:
+                counter -= 1
+                x.remove(word)
 
 def multiple_search(x, input):
-
+    sensivity = 2
     counter = len(x);
-    tmp=[]
+    tmp=""
     for word in x:
         if word in input:
             counter -= 1
+            x.remove(word)
+            tmp+=(word)+ " "
+    #leviatan
+    if counter > 0:
+        for sen in range(1,sensivity+1):
+             for word in x:
+                for i in input:
+                    if levenshtein(word,i) <=sen:
+                        counter -= 1
+                        x.remove(word)
+                        tmp+=(i)+" "
+
 
     if counter == 0:
+        print(tmp)
         for word in x:
             input.remove(word)
         return True
