@@ -1,36 +1,36 @@
 {
 	"places" : [
 		{
-			"name" : ["poddasze czesc pierwsza","poddasze sekcja pierwsza","poddasze czesci pierwszej","poddasze sekcji pierwszej"],
+			"name" : ["poddasze część pierwsza","poddasze sekcja pierwsza","poddasze części pierwszej","poddasze sekcji pierwszej"],
 			"id" : "A",
 			"devices" : [
 				{
-					"name" : ["oswieltlenie gorne"],
+					"name" : ["oświetlenie górne", "światło na górze"],
 					"id" : 1,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name": ["oswietlenie biurka"],
+					"name": ["oświetlenie biurka", "światło na biurku", "biurko"],
 					"id": 2,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
@@ -41,147 +41,439 @@
 					"id": 3,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						},
 						{
-							"name" : ["ustaw głośność"],
-							"id" : "set",
+							"name" : ["ustaw kanał", "kanał"],
+							"id" : "set ch",
+							"value": ["1","2","3","4","5","6"]
+						},
+						{
+							"name" : ["następny kanał", "następny"],
+							"id" : "ch_next",
+							"value": null
+						},
+						{
+							"name" : ["poprzedni kanał", "poprzedni"],
+							"id" : "ch_prev",
+							"value": null
+						},
+						{
+							"name" : ["ustaw głośność", "głośność"],
+							"id" : "set vol",
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
-							"name" : ["pogłośnij"],
+							"name" : ["pogłośnij", "zwiększ głośność"],
 							"id" : "vol_up",
 							"value": null
 						},
 						{
-							"name" : ["pocisz"],
+							"name" : ["ścisz", "zmniejsz głośność"],
 							"id" : "vol_down",
 							"value": null
 						}
 					]
-				}
-			]
-		},
-		{
-			"name" : ["poddasze czesc druga", "poddasze sekcja druga"],
-			"id" : "A",
-			"devices" : [
+				},
 				{
-					"name" : ["oswieltlenie gorne"],
-					"id" : 1,
+					"name": ["komputer", "pc", "pecet", "laptop"],
+					"id": 4,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name": ["lampa na lustrem"],
-					"id": 2,
+					"name": ["monitor", "ekran"],
+					"id": 5,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				}
-
-
 			]
 		},
+
+		{
+			"name" : ["poddasze część druga", "poddasze sekcja druga"],
+			"id" : "A",
+			"devices" : [
+				{
+					"name" : ["oświetlenie górne", "światło góra"],
+					"id" : 6,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa nad ławą", "światło nad ławą"],
+					"id": 7,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa lewa"],
+					"id": 8,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa prawa"],
+					"id": 9,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["telewizor", "tv"],
+					"id": 10,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["ustaw kanał", "kanał"],
+							"id" : "set ch",
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
+								"17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
+								"30", "31", "32"]
+						},
+						{
+							"name" : ["następny kanał", "następny"],
+							"id" : "ch_next",
+							"value": null
+						},
+						{
+							"name" : ["poprzedni kanał", "poprzedni"],
+							"id" : "ch_prev",
+							"value": null
+						},
+
+						{
+							"name" : ["ustaw głośność", "głośność"],
+							"id" : "set vol",
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+						},
+						{
+							"name" : ["pogłośnij", "zwiększ głośność"],
+							"id" : "vol_up",
+							"value": null
+						},
+						{
+							"name" : ["ścisz", "zmniejsz głośność"],
+							"id" : "vol_down",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["oświetlenie za telewizorem", "światło za telewizorem"],
+					"id": 11,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["całe oświetlenie na poddaszu", "światło na poddaszu", "wszystko", "całość"],
+					"id": 12,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				}
+			]
+		},
+
 		{
 			"name" : ["sypialnia"],
 			"id" : "B",
 			"devices" : [
 				{
-					"name" : ["oswieltlenie gorne"],
+					"name" : ["oświetlenie górne", "światło góra"],
 					"id" : 1,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name": ["lampa na lustrem"],
+					"name": ["lampa lewa"],
 					"id": 2,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
+				},
+				{
+					"name": ["lampa prawa"],
+					"id": 3,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa"],
+					"id": 4,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["telewizor", "tv"],
+					"id": 5,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["ustaw kanał", "kanał"],
+							"id" : "set ch",
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
+								"17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
+								"30", "31", "32"]
+						},
+						{
+							"name" : ["następny kanał", "następny"],
+							"id" : "ch_next",
+							"value": null
+						},
+						{
+							"name" : ["poprzedni kanał", "poprzedni"],
+							"id" : "ch_prev",
+							"value": null
+						},
+
+						{
+							"name" : ["ustaw głośność", "głośność"],
+							"id" : "set vol",
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+						},
+						{
+							"name" : ["pogłośnij", "zwiększ głośność"],
+							"id" : "vol_up",
+							"value": null
+						},
+						{
+							"name" : ["ścisz", "zmniejsz głośność"],
+							"id" : "vol_down",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["oświetlenie za telewizorem", "światło za telewizorem"],
+					"id": 6,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["całe oświetlenie w sypialni", "światło w sypialni", "wszystko", "całość"],
+					"id": 7,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["budzik"],
+					"id": 8,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["godzina", "ustaw godzinę"],
+							"id" : "set",
+							"value": null
+						}
+					]
 				}
-
-
 			]
 		},
 
 
 		{
-			"name" : ["lazienka","toaleta"],
+			"name" : ["lazienka", "toaleta"],
 			"id" : "C",
 			"devices" : [
 				{
-					"name" : ["oswieltlenie gorne"],
+					"name" : ["oświetlenie górne", "światło góra"],
 					"id" : 1,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name": ["lampa na lustrem"],
+					"name": ["lampa na lustrem", "światło nad lustrem", "lustro"],
 					"id": 2,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
@@ -192,12 +484,12 @@
 					"id": 3,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
@@ -209,58 +501,179 @@
 					"id": 4,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
-							"id" : "off",
-							"value": null
-						}
-					]
-				}
-
-			]
-		},
-		{
-			"name" : ["salon"],
-			"id" : "D",
-			"devices" : [
-				{
-					"name" : ["oswieltlenie gorne"],
-					"id" : 1,
-					"actions" : [
-						{
-							"name" : ["wlacz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name": ["lampa na lustrem"],
-					"id": 2,
+					"name": ["całe oświetlenie w łazience", "światło w łazience", "całe oświetlenie w toalecie", "światło w toalecie", "wszystko", "całość"],
+					"id": 5,
 					"actions" : [
 						{
-							"name" : ["wlacz"],
+							"name" : ["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				}
+			]
+		},
 
-
+		{
+			"name" : ["salon"],
+			"id" : "D",
+			"devices" : [
+				{
+					"name" : ["oświetlenie górne", "światło góra"],
+					"id" : 1,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name": ["lampa lewa"],
+					"id": 2,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["kolor", "ustaw kolor"],
+							"id" : "set color",
+							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
+							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
+						}
+					]
+				},
+				{
+					"name": ["lampa prawa"],
+					"id": 3,
+					"actions" : [
+						{
+							"name" : ["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["kolor", "ustaw kolor"],
+							"id" : "set color",
+							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
+							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
+						}
+					]
+				},
+				{
+					"name" :["całe oświetlenie w salonie", "światło w salonie","wszystko", "całość"],
+					"id" : 4,
+					"actions" : [
+						{
+							"name" :["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name" : ["roleta lewa"],
+					"id" : 5,
+					"actions" : [
+						{
+							"name" : ["góra"],
+							"id" : "up",
+							"value": null
+						},
+						{
+							"name" : ["dół"],
+							"id" : "down",
+							"value": null
+						},
+						{
+							"name" : ["stop"],
+							"id" : "stop",
+							"value": null
+						}
+					]
+				},
+				{
+					"name" : ["roleta prawa"],
+					"id" : 6,
+					"actions" : [
+						{
+							"name" : ["góra"],
+							"id" : "up",
+							"value": null
+						},
+						{
+							"name" : ["dół"],
+							"id" : "down",
+							"value": null
+						},
+						{
+							"name" : ["stop"],
+							"id" : "stop",
+							"value": null
+						}
+					]
+				},
+				{
+					"name" : ["rolety", "obie rolety", "wszystkie rolety"],
+					"id" : 7,
+					"actions" : [
+						{
+							"name" : ["góra"],
+							"id" : "up",
+							"value": null
+						},
+						{
+							"name" : ["dół"],
+							"id" : "down",
+							"value": null
+						},
+						{
+							"name" : ["stop"],
+							"id" : "stop",
+							"value": null
+						}
+					]
+				}
 			]
 		},
 
@@ -269,64 +682,85 @@
 			"id" : "E",
 			"devices" : [
 				{
-					"name" :[ "oswietlenie gorne"],
+					"name" :["oświetlenie górne", "światło góra"],
 					"id" : 1,
 					"actions" : [
 						{
-							"name" :["wlacz"],
+							"name" :["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name" :[ "oswieltlenie pod szafkami"],
+					"name" :["oświetlenie nad szafkami", "światło pod szafkami"],
+					"id" : 2,
+					"actions" : [
+						{
+							"name" :["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["jasność", "ustaw jasność"],
+							"id" : "off",
+							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"]
+						}
+					]
+				},
+				{
+					"name" :["oświetlenie pod szafkami", "światło pod szafkami"],
 					"id" : 3,
 					"actions" : [
 						{
-							"name" :["wlacz"],
+							"name" :["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name" :[ "oswieltlenie okapu"],
+					"name" :["oświetlenie okapu", "światło okap"],
 					"id" : 4,
 					"actions" : [
 						{
-							"name" :["wlacz"],
+							"name" :["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				},
 				{
-					"name" :[ "okap"],
+					"name" :["okap"],
 					"id" : 5,
 					"actions" : [
 						{
-							"name" :["wlacz"],
+							"name" :["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						},
@@ -343,22 +777,37 @@
 					]
 				},
 				{
-					"name" :[ "wentylator"],
+					"name" :["wentylator"],
 					"id" : 6,
 					"actions" : [
 						{
-							"name" :["wlacz"],
+							"name" :["włącz"],
 							"id" : "on",
 							"value": null
 						},
 						{
-							"name" : ["wylacz"],
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						}
+					]
+				},
+				{
+					"name" :["całe oświetlenie w kuchni", "światło w kuchni" ,"wszystko", "całość"],
+					"id" : 7,
+					"actions" : [
+						{
+							"name" :["włącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
 						}
 					]
 				}
-
 			]
 		}
 	]
