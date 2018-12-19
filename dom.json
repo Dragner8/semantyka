@@ -572,7 +572,7 @@
 							"value": null
 						},
 						{
-							"name" : ["kolor", "ustaw kolor",""],
+							"name" : ["kolor", "ustaw kolor"],
 							"id" : "color",
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
@@ -594,7 +594,7 @@
 							"value": null
 						},
 						{
-							"name" : ["kolor", "ustaw kolor","na"],
+							"name" : ["kolor", "ustaw kolor"],
 							"id" : "color",
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
@@ -622,12 +622,12 @@
 					"id" : 5,
 					"actions" : [
 						{
-							"name" : ["góra","podnieś"],
+							"name" : ["góra","podnieś","rozwiń"],
 							"id" : "up",
 							"value": null
 						},
 						{
-							"name" : ["dół","opuść"],
+							"name" : ["dół","opuść","zwiń"],
 							"id" : "down",
 							"value": null
 						},
@@ -643,17 +643,17 @@
 					"id" : 6,
 					"actions" : [
 						{
-							"name" : ["góra"],
+							"name" : ["góra","podnieś","rozwiń"],
 							"id" : "up",
 							"value": null
 						},
 						{
-							"name" : ["dół"],
+							"name" : ["dół","opuść","zwiń"],
 							"id" : "down",
 							"value": null
 						},
 						{
-							"name" : ["stop"],
+							"name" : ["stop","zatrymaj"],
 							"id" : "stop",
 							"value": null
 						}
@@ -664,17 +664,17 @@
 					"id" : 7,
 					"actions" : [
 						{
-							"name" : ["góra","podnieś"],
+							"name" : ["góra","podnieś","rozwiń"],
 							"id" : "up",
 							"value": null
 						},
 						{
-							"name" : ["dół","opuść"],
+							"name" : ["dół","opuść","zwiń"],
 							"id" : "down",
 							"value": null
 						},
 						{
-							"name" : ["stop"],
+							"name" : ["stop","zatrymaj"],
 							"id" : "stop",
 							"value": null
 						}
@@ -771,13 +771,13 @@
 							"value": null
 						},
 						{
-							"name" : ["wolno"],
-							"id" : "fast",
+							"name" : ["wolno","wolniej","zwolnij"],
+							"id" : "slow",
 							"value": null
 						},
 						{
-							"name" : ["szybko"],
-							"id" : "slow",
+							"name" : ["szybko","szybciej","przyśpiesz"],
+							"id" : "fast",
 							"value": null
 						}
 					]
