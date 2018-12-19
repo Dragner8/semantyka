@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dec9a86-2e99-4a07-8c88-fb3c5a8a116c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/dom.json" beforeDir="false" afterPath="$PROJECT_DIR$/dom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dom.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="442" column="41" lean-forward="true" selection-start-line="442" selection-start-column="41" selection-end-line="442" selection-end-column="41" />
+            <state relative-caret-position="-1163">
+              <caret line="715" column="48" lean-forward="true" selection-start-line="715" selection-start-column="48" selection-end-line="715" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -51,6 +50,7 @@
       <find>prin</find>
       <find>set</find>
       <find>budzik</find>
+      <find>telewi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dom.json" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/dom.json" />
       </list>
     </option>
   </component>
@@ -177,17 +177,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dom.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="442" column="41" lean-forward="true" selection-start-line="442" selection-start-column="41" selection-end-line="442" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="109" column="53" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1163">
+          <caret line="715" column="48" lean-forward="true" selection-start-line="715" selection-start-column="48" selection-end-line="715" selection-end-column="48" />
         </state>
       </provider>
     </entry>

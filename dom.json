@@ -19,7 +19,7 @@
 							"value": null
 						},
 						{
-							"name" : ["przełcz",""],
+							"name" : ["przełcz"],
 							"id" : "toggle",
 							"value": null
 						}
@@ -88,7 +88,7 @@
 					]
 				},
 				{
-					"name": ["komputer", "pecet", "laptop"],
+					"name": ["komputer", "pecet", "laptop","pc"],
 					"id": 4,
 					"actions" : [
 						{
@@ -159,7 +159,7 @@
 					]
 				},
 				{
-					"name": ["lampa lewa"],
+					"name": ["lampa lewa","lampa lewej strony"],
 					"id": 8,
 					"actions" : [
 						{
@@ -175,7 +175,7 @@
 					]
 				},
 				{
-					"name": ["lampa prawa"],
+					"name": ["lampa prawa","lampa prawej strony"],
 					"id": 9,
 					"actions" : [
 						{
@@ -191,7 +191,7 @@
 					]
 				},
 				{
-					"name": ["telewizor", "telewizja"],
+					"name": ["telewizor", "telewizja","tv"],
 					"id": 10,
 					"actions" : [
 						{
@@ -240,7 +240,7 @@
 					]
 				},
 				{
-					"name": ["oświetlenie za telewizorem", "światło za telewizorem"],
+					"name": ["oświetlenie za telewizorem", "światło za telewizorem","swiatlo za tv"],
 					"id": 11,
 					"actions" : [
 						{
@@ -343,7 +343,7 @@
 					]
 				},
 				{
-					"name": ["telewizor", "tv"],
+					"name": ["telewizor", "tv","telewizje"],
 					"id": 5,
 					"actions" : [
 						{
@@ -438,7 +438,7 @@
 							"value": null
 						},
 						{
-							"name" : ["godzina", "ustaw godzinę"],
+							"name" : ["godzina", "ustaw godzinę","ustaw"],
 							"id" : "time",
 							"value": null
 						}
@@ -704,7 +704,7 @@
 					]
 				},
 				{
-					"name" :["oświetlenie nad szafkami", "światło pod szafkami"],
+					"name" :["oświetlenie nad szafkami", "światło  nad szafkami"],
 					"id" : 2,
 					"actions" : [
 						{
@@ -719,7 +719,7 @@
 						},
 						{
 							"name" : ["jasność", "ustaw jasność"],
-							"id" : "off",
+							"id" : "bright",
 							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"]
 						}
 					]
