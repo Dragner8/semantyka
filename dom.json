@@ -17,6 +17,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełcz",""],
+							"id" : "toggle",
+							"value": null
 						}
 					]
 				},
@@ -434,7 +439,7 @@
 						},
 						{
 							"name" : ["godzina", "ustaw godzinę"],
-							"id" : "set",
+							"id" : "time",
 							"value": null
 						}
 					]
@@ -659,12 +664,12 @@
 					"id" : 7,
 					"actions" : [
 						{
-							"name" : ["góra"],
+							"name" : ["góra","podnieś"],
 							"id" : "up",
 							"value": null
 						},
 						{
-							"name" : ["dół"],
+							"name" : ["dół","opuść"],
 							"id" : "down",
 							"value": null
 						},

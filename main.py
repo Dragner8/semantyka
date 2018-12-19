@@ -101,6 +101,14 @@ def recognize_command(input):
                             return result
                     print("error set value is unavailable")
                     return None
+                elif(Id=="time") :
+
+                    for x in input:
+                        if ":" in x:
+                            result = "set " + result + " " + Id + " " + x
+                            return result
+                    print("error uncorrect time value")
+                    return None
                 else:
                     result=Id+" "+result
                     return result
@@ -121,6 +129,7 @@ def recognize_command(input):
 
 
 def main():
+
 
     while(True):
         x = input('What do you want for me?(write "end" to break)')
