@@ -2,7 +2,7 @@ import json
 
 def search(target ,input,json):
     sensivity=2
-    for sen in range(sensivity):
+    for sen in range(sensivity+1):
         for x in json[target]:
             for x_name in x['name']:
 
@@ -41,8 +41,10 @@ def multiple_search(x, input,sensivity):
             for i in input:
                     if levenshtein(word,i) <=sen:
                         counter -= 1
+                        print(word)
                         tmp.remove(word)
                         recognized.append(i)
+                        break
         x=tmp
     print("trutrutru",x)
     print("TEST" + str(counter))
@@ -119,7 +121,6 @@ def recognize_command(input):
 
 
 def main():
-
 
     while(True):
         x = input('What do you want for me?(write "end" to break)')

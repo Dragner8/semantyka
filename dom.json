@@ -21,7 +21,7 @@
 					]
 				},
 				{
-					"name": ["oświetlenie biurka", "światło na biurku", "biurko"],
+					"name": ["oświetlenie biurka", "światło na biurku"],
 					"id": 2,
 					"actions" : [
 						{
@@ -83,7 +83,7 @@
 					]
 				},
 				{
-					"name": ["komputer", "pc", "pecet", "laptop"],
+					"name": ["komputer", "pecet", "laptop"],
 					"id": 4,
 					"actions" : [
 						{
@@ -118,7 +118,7 @@
 		},
 
 		{
-			"name" : ["poddasze część druga", "poddasze sekcja druga"],
+			"name" : ["poddasze część druga", "poddasze sekcja druga","poddasze sekcji drugiej","poddasze części drugiej"],
 			"id" : "A",
 			"devices" : [
 				{
@@ -138,7 +138,7 @@
 					]
 				},
 				{
-					"name": ["lampa nad ławą", "światło nad ławą"],
+					"name": ["lampa nad ławą", "światło nad ławą","światło ława","lapa ława"],
 					"id": 7,
 					"actions" : [
 						{
@@ -186,7 +186,7 @@
 					]
 				},
 				{
-					"name": ["telewizor", "tv"],
+					"name": ["telewizor", "telewizja"],
 					"id": 10,
 					"actions" : [
 						{
@@ -251,7 +251,7 @@
 					]
 				},
 				{
-					"name": ["całe oświetlenie na poddaszu", "światło na poddaszu", "wszystko", "całość"],
+					"name": ["całe oświetlenie"],
 					"id": 12,
 					"actions" : [
 						{
@@ -290,7 +290,7 @@
 					]
 				},
 				{
-					"name": ["lampa lewa"],
+					"name": ["lampa lewa","lampa lewej strony"],
 					"id": 2,
 					"actions" : [
 						{
@@ -306,7 +306,7 @@
 					]
 				},
 				{
-					"name": ["lampa prawa"],
+					"name": ["lampa prawa","lampa prawej strony"],
 					"id": 3,
 					"actions" : [
 						{
@@ -403,7 +403,7 @@
 					]
 				},
 				{
-					"name": ["całe oświetlenie w sypialni", "światło w sypialni", "wszystko", "całość"],
+					"name": ["całe oświetlenie", "całe światło"],
 					"id": 7,
 					"actions" : [
 						{
@@ -480,7 +480,7 @@
 					]
 				},
 				{
-					"name": ["wentylator"],
+					"name": ["wentylator","wentylacja"],
 					"id": 3,
 					"actions" : [
 						{
@@ -493,6 +493,7 @@
 							"id" : "off",
 							"value": null
 						}
+
 					]
 				},
 
@@ -513,7 +514,7 @@
 					]
 				},
 				{
-					"name": ["całe oświetlenie w łazience", "światło w łazience", "całe oświetlenie w toalecie", "światło w toalecie", "wszystko", "całość"],
+					"name": ["całe oświetlenie ",  "całe światło"],
 					"id": 5,
 					"actions" : [
 						{
@@ -552,7 +553,7 @@
 					]
 				},
 				{
-					"name": ["lampa lewa"],
+					"name": ["lampa lewa","lampa lewej strony"],
 					"id": 2,
 					"actions" : [
 						{
@@ -566,7 +567,7 @@
 							"value": null
 						},
 						{
-							"name" : ["kolor", "ustaw kolor"],
+							"name" : ["kolor", "ustaw kolor",""],
 							"id" : "color",
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
@@ -574,7 +575,7 @@
 					]
 				},
 				{
-					"name": ["lampa prawa"],
+					"name": ["lampa prawa","lampa prawej strony"],
 					"id": 3,
 					"actions" : [
 						{
@@ -588,7 +589,7 @@
 							"value": null
 						},
 						{
-							"name" : ["kolor", "ustaw kolor"],
+							"name" : ["kolor", "ustaw kolor","na"],
 							"id" : "color",
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
@@ -596,7 +597,7 @@
 					]
 				},
 				{
-					"name" :["całe oświetlenie w salonie", "światło w salonie","wszystko", "całość"],
+					"name" :["całe oświetlenie ", "światło" ],
 					"id" : 4,
 					"actions" : [
 						{
@@ -616,17 +617,17 @@
 					"id" : 5,
 					"actions" : [
 						{
-							"name" : ["góra"],
+							"name" : ["góra","podnieś"],
 							"id" : "up",
 							"value": null
 						},
 						{
-							"name" : ["dół"],
+							"name" : ["dół","opuść"],
 							"id" : "down",
 							"value": null
 						},
 						{
-							"name" : ["stop"],
+							"name" : ["stop","zatrzymaj"],
 							"id" : "stop",
 							"value": null
 						}
@@ -751,7 +752,7 @@
 					]
 				},
 				{
-					"name" :["okap"],
+					"name" :["okap","wentylacje okapu","wentylacja okapu"],
 					"id" : 5,
 					"actions" : [
 						{
@@ -777,7 +778,7 @@
 					]
 				},
 				{
-					"name" :["wentylator"],
+					"name" :["wentylator","wentylacja"],
 					"id" : 6,
 					"actions" : [
 						{
@@ -793,7 +794,7 @@
 					]
 				},
 				{
-					"name" :["całe oświetlenie w kuchni", "światło w kuchni" ,"wszystko", "całość"],
+					"name" :["całe oświetlenie " ,"wszystko", "całość"],
 					"id" : 7,
 					"actions" : [
 						{
