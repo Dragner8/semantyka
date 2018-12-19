@@ -19,19 +19,19 @@ def invoke_leven(x, input, counter, sensivity):
                 x.remove(word)
 
 def multiple_search(x, input,sensivity):
-    print(sensivity)
+    # print(sensivity)
     recognized = []
     counter = len(x);
     tmp=x.copy()
-    print(x,tmp)
+    # print(x,tmp)
     for word in x:
         if word in input:
             counter -= 1
             tmp.remove(word)
             recognized.append(word)
-            print(x,tmp)
+            # print(x,tmp)
     x=tmp
-    print("CIAMCIARAMCIA",tmp)
+   # print("CIAMCIARAMCIA",tmp)
 
     #leviatan
 
@@ -41,18 +41,19 @@ def multiple_search(x, input,sensivity):
             for i in input:
                     if levenshtein(word,i) <=sen:
                         counter -= 1
-                        print(word)
+                        #  print(word)
                         tmp.remove(word)
                         recognized.append(i)
                         break
         x=tmp
-    print("trutrutru",x)
-    print("TEST" + str(counter))
+    # print("trutrutru",x)
+    #  print("TEST" + str(counter))
     if counter == 0:
-        print(tmp)
+        #  print(tmp)
         for word in recognized:
-            #input.remove(word)
-            print(word)
+            pass
+            #input.remove(word) nie ruszac na razie
+        # print(word)
         return True
 
     return False
