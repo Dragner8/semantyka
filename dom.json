@@ -52,7 +52,7 @@
 						},
 						{
 							"name" : ["ustaw kanał", "kanał"],
-							"id" : "set ch",
+							"id" : "ch",
 							"value": ["1","2","3","4","5","6"]
 						},
 						{
@@ -67,7 +67,7 @@
 						},
 						{
 							"name" : ["ustaw głośność", "głośność"],
-							"id" : "set vol",
+							"id" : "vol",
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
@@ -201,7 +201,7 @@
 						},
 						{
 							"name" : ["ustaw kanał", "kanał"],
-							"id" : "set ch",
+							"id" : "ch",
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
 								"17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
 								"30", "31", "32"]
@@ -219,7 +219,7 @@
 
 						{
 							"name" : ["ustaw głośność", "głośność"],
-							"id" : "set vol",
+							"id" : "vol",
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
@@ -353,7 +353,7 @@
 						},
 						{
 							"name" : ["ustaw kanał", "kanał"],
-							"id" : "set ch",
+							"id" : "ch",
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
 								"17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
 								"30", "31", "32"]
@@ -371,7 +371,7 @@
 
 						{
 							"name" : ["ustaw głośność", "głośność"],
-							"id" : "set vol",
+							"id" : "vol",
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
@@ -567,7 +567,7 @@
 						},
 						{
 							"name" : ["kolor", "ustaw kolor"],
-							"id" : "set color",
+							"id" : "color",
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
 						}
@@ -589,7 +589,7 @@
 						},
 						{
 							"name" : ["kolor", "ustaw kolor"],
-							"id" : "set color",
+							"id" : "color",
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
 						}
