@@ -1,11 +1,13 @@
 import json
 
 def search(target ,input,json):
+    sensivity=2
+    for sen in range(sensivity):
+        for x in json[target]:
+            for x_name in x['name']:
 
-    for x in json[target]:
-        for x_name in x['name']:
-            if (multiple_search(x_name.split(), input)):
-                return True, x['id'] , x
+                if (multiple_search(x_name.split(), input,sen)):
+                    return True, x['id'] , x
     return False,0,0
 
 
@@ -16,74 +18,42 @@ def invoke_leven(x, input, counter, sensivity):
                 counter -= 1
                 x.remove(word)
 
-def multiple_search(x, input):
-    sensivity = 2
+def multiple_search(x, input,sensivity):
+    print(sensivity)
+    recognized = []
     counter = len(x);
-    tmp=""
+    tmp=x.copy()
+    print(x,tmp)
     for word in x:
         if word in input:
             counter -= 1
-            x.remove(word)
-            tmp+=(word)+ " "
+            tmp.remove(word)
+            recognized.append(word)
+            print(x,tmp)
+    x=tmp
+    print("CIAMCIARAMCIA",tmp)
+
     #leviatan
-    if counter > 0:
-        for sen in range(1,sensivity+1):
-             for word in x:
-                for i in input:
+
+    for sen in range(1,sensivity+1):
+        tmp=x.copy()
+        for word in x:
+            for i in input:
                     if levenshtein(word,i) <=sen:
                         counter -= 1
-                        x.remove(word)
-                        tmp+=(i)+" "
-
-
+                        tmp.remove(word)
+                        recognized.append(i)
+        x=tmp
+    print("trutrutru",x)
+    print("TEST" + str(counter))
     if counter == 0:
         print(tmp)
-        for word in x:
-            input.remove(word)
+        for word in recognized:
+            #input.remove(word)
+            print(word)
         return True
 
     return False
-
-def recognize_command(input):
-    with open('dom.json', "r") as f:
-        data = json.load(f)
-
-    result = ''
-
-    placeFound, Id, Json = search('places', input, data)
-    if placeFound:
-        result += Id
-        deviceFound, Id, Json = search('devices', input, Json)
-        if deviceFound:
-            result += str(Id)
-            actionFound, Id, Json = search('actions', input, Json)
-            if actionFound:
-
-                if(Json["value"]):
-
-                    for value in Json["value"]:
-                        if value in input:
-                            result=Id+" "+result+" "+value
-                            return result
-                    print("error set value is unavailable")
-                    return None
-                else:
-                    result=Id+" "+result
-                    return result
-
-
-            else:
-                print("error unknown action")
-                return None
-        else:
-            print("error unknown device")
-            return None
-    else:
-        print("error unknown place")
-        return None
-
-    return result
-
 
 def levenshtein(s1, s2):
     if len(s1) < len(s2):
@@ -105,11 +75,50 @@ def levenshtein(s1, s2):
         previous_row = current_row
 
     return previous_row[-1]
-def main():
-    a = "wlacz"
-    b = "wylacz"
 
-    print(levenshtein(a, b))
+def recognize_command(input):
+    with open('dom.json', "r") as f:
+        data = json.load(f)
+
+    result = ''
+
+    placeFound, Id, Json = search('places', input, data)
+    if placeFound:
+        result += Id
+        deviceFound, Id, Json = search('devices', input, Json)
+        if deviceFound:
+            result += str(Id)
+            actionFound, Id, Json = search('actions', input, Json)
+            if actionFound:
+
+                if(Json["value"]):
+
+                    for value in Json["value"]:
+                        if value in input:
+                            result="set "+result+" "+Id+" "+value
+                            return result
+                    print("error set value is unavailable")
+                    return None
+                else:
+                    result=Id+" "+result
+                    return result
+
+
+            else:
+                print("error unknown action")
+                return None
+        else:
+            print("error unknown device")
+            return None
+    else:
+        print("error unknown place")
+        return None
+
+    return result
+
+
+
+def main():
 
 
     while(True):
