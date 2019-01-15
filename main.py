@@ -31,7 +31,7 @@ def multiple_search(x, input,sensivity):
             recognized.append(word)
             # print(x,tmp)
     x=tmp
-   # print("CIAMCIARAMCIA",tmp)
+   
 
     #leviatan
 
@@ -46,8 +46,7 @@ def multiple_search(x, input,sensivity):
                         recognized.append(i)
                         break
         x=tmp
-    # print("trutrutru",x)
-    #  print("TEST" + str(counter))
+    
     if counter == 0:
         #  print(tmp)
         for word in recognized:
