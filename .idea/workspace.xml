@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dec9a86-2e99-4a07-8c88-fb3c5a8a116c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom.json" beforeDir="false" afterPath="$PROJECT_DIR$/dom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dom.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="222" column="106" selection-start-line="222" selection-start-column="106" selection-end-line="222" selection-end-column="106" />
+            <state relative-caret-position="-3705">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -143,7 +141,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="214" y="59" width="1390" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.3343087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -182,8 +179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dom.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="222" column="106" selection-start-line="222" selection-start-column="106" selection-end-line="222" selection-end-column="106" />
+        <state relative-caret-position="-3705">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>

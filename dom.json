@@ -21,7 +21,7 @@
 							"value": null
 						},
 						{
-							"name" : ["przełcz"],
+							"name" : ["przełcz",""],
 							"id" : "toggle",
 							"value": null
 						}
@@ -78,7 +78,7 @@
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
-							"name" : ["pogłośnij", "zwiększ głośność"],
+							"name" : ["pogłośnij", "zwiększ głośność", "głośniej"],
 							"id" : "vol_up",
 							"value": null
 						},
@@ -208,7 +208,7 @@
 							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
-							"name" : ["pogłośnij", "zwiększ głośność"],
+							"name" : ["pogłośnij", "zwiększ głośność","głośniej"],
 							"id" : "vol_up",
 							"value": null
 						},
@@ -220,7 +220,7 @@
 					]
 				},
 				{
-					"name": ["oświetlenie za telewizorem", "światło za telewizorem", "lampe za telewizorem"],
+					"name": ["oświetlenie za telewizorem", "światło za telewizorem", "lampę za telewizorem"],
 					"id": 11,
 					"actions" : [
 						{
