@@ -1,12 +1,14 @@
 {
 	"places" : [
 		{
-			"name" : ["poddasze część pierwsza","poddasze sekcja pierwsza","poddasze części pierwszej","poddasze sekcji pierwszej"],
+			"name" : ["poddasze ","poddaszu"],
 			"id" : "A",
 			"devices" : [
 				{
 					"name" : ["oświetlenie górne", "światło na górze"],
-					"id" : 1,
+					"id" : [1,6],
+					"place0": [ "część pierwsza","sekcja pierwsza","części pierwszej","sekcji pierwszej"],
+					"place1": [ "część druga","sekcja druga","części drugiej","sekcji drugiej"],
 					"actions" : [
 						{
 							"name" : ["włącz", "załącz", "załącz"],
@@ -118,30 +120,8 @@
 							"value": null
 						}
 					]
-				}
-			]
-		},
-
-		{
-			"name" : ["poddasze część druga", "poddasze sekcja druga","poddasze sekcji drugiej","poddasze części drugiej"],
-			"id" : "A",
-			"devices" : [
-				{
-					"name" : ["oświetlenie górne", "światło góra"],
-					"id" : 6,
-					"actions" : [
-						{
-							"name" : ["włącz", "załącz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wyłącz"],
-							"id" : "off",
-							"value": null
-						}
-					]
 				},
+
 				{
 					"name": ["lampa nad ławą", "światło nad ławą","światło ława","lapa ława"],
 					"id": 7,
@@ -240,7 +220,7 @@
 					]
 				},
 				{
-					"name": ["oświetlenie za telewizorem", "światło za telewizorem"],
+					"name": ["oświetlenie za telewizorem", "światło za telewizorem", "lampe za telewizorem"],
 					"id": 11,
 					"actions" : [
 						{
@@ -273,6 +253,8 @@
 				}
 			]
 		},
+
+
 
 		{
 			"name" : ["sypialnia"],
@@ -638,7 +620,7 @@
 							"value": null
 						},
 						{
-							"name" : ["dół","opuść","zwiń"],
+							"name" : ["w dół","opuść","zwiń"],
 							"id" : "down",
 							"value": null
 						},

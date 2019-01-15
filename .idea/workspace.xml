@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dec9a86-2e99-4a07-8c88-fb3c5a8a116c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom.json" beforeDir="false" afterPath="$PROJECT_DIR$/dom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,22 +16,12 @@
     <favorites_list name="semantyka" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="1395">
+              <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -37,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dom.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="779" column="40" selection-start-line="779" selection-start-column="40" selection-end-line="779" selection-end-column="40" />
+            <state relative-caret-position="182">
+              <caret line="222" column="106" selection-start-line="222" selection-start-column="106" selection-end-line="222" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -51,6 +43,10 @@
       <find>set</find>
       <find>budzik</find>
       <find>telewi</find>
+      <find>multiple_search</find>
+      <find>kuchnia</find>
+      <find>salonie</find>
+      <find>split</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,7 +83,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,10 +142,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="54" width="1400" height="1000" extended-state="0" />
+    <frame x="214" y="59" width="1390" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.24981844" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.3343087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5017123" side_tool="true" weight="0.24981844" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -179,15 +175,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="1395">
+          <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dom.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="779" column="40" selection-start-line="779" selection-start-column="40" selection-end-line="779" selection-end-column="40" />
+        <state relative-caret-position="182">
+          <caret line="222" column="106" selection-start-line="222" selection-start-column="106" selection-end-line="222" selection-end-column="106" />
         </state>
       </provider>
     </entry>

@@ -49,8 +49,8 @@ def multiple_search(x, input,sensivity):
     
     if counter == 0:
         #  print(tmp)
-        for word in recognized:
-            pass
+        #for word in recognized:
+            #pass
             #input.remove(word) nie ruszac na razie
         # print(word)
         return True
@@ -89,6 +89,14 @@ def recognize_command(input):
         result += Id
         deviceFound, Id, Json = search('devices', input, Json)
         if deviceFound:
+
+            if(isinstance(Id, list)):
+                for id in range(len(Id)):
+                    for place in Json['place'+str(id)]:
+                        if(multiple_search( place.split(),input, 2)):
+                            Id=(Id[int(id)])
+                            break
+
             result += str(Id)
             actionFound, Id, Json = search('actions', input, Json)
             if actionFound:
@@ -130,14 +138,11 @@ def recognize_command(input):
 
 def main():
 
-
     while(True):
         x = input('What do you want for me?(write "end" to break)')
         if x=="end":
             break
         print(recognize_command(x.split()))
-
-
 
 
 if __name__ == '__main__':
