@@ -548,7 +548,7 @@
 			"id" : "C",
 			"devices" : [
 				{
-					"name" : ["oświetlenie górne", "światło góra"],
+					"name" : ["oświetlenie górne", "światło góra","oświetlenie","światło"],
 					"id" : 1,
 					"actions" : [
 						{
@@ -662,6 +662,28 @@
 			"id" : "D",
 			"devices" : [
 				{
+					"name" :["całe oświetlenie ", "światło","wszystkie lampy"],
+					"id" : 4,
+					"actions" : [
+						{
+							"name" :["włącz", "załącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
+						}
+					]
+				},
+                {
+
 					"name" : ["oświetlenie górne", "światło góra" ,"oświetlenie"],
 					"id" : 1,
 					"actions" : [
@@ -735,27 +757,7 @@
 						}
 					]
 				},
-				{
-					"name" :["całe oświetlenie ", "światło","wszystkie lampy"],
-					"id" : 4,
-					"actions" : [
-						{
-							"name" :["włącz", "załącz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wyłącz"],
-							"id" : "off",
-							"value": null
-						},
-						{
-							"name" : ["przełącz","zmień stan"],
-							"id" : "xchg",
-							"value": null
-						}
-					]
-				},
+
 				{
 					"name" : ["roleta lewa","rolete lewą"],
 					"id" : 5,
@@ -766,7 +768,7 @@
 							"value": null
 						},
 						{
-							"name" : ["w dół","opuść","zwiń"],
+							"name" : ["w dół","opuść","zwiń","zasłoń"],
 							"id" : "down",
 							"value": null
 						},
@@ -787,7 +789,7 @@
 							"value": null
 						},
 						{
-							"name" : ["dół","opuść","zwiń"],
+							"name" : ["dół","opuść","zwiń","zasłoń"],
 							"id" : "down",
 							"value": null
 						},
@@ -808,7 +810,7 @@
 							"value": null
 						},
 						{
-							"name" : ["dół","opuść","zwiń"],
+							"name" : ["dół","opuść","zwiń","zasłoń"],
 							"id" : "down",
 							"value": null
 						},
@@ -826,6 +828,39 @@
 			"name" : ["kuchnia"],
 			"id" : "E",
 			"devices" : [
+                {
+					"name" :["oświetlenie nad szafkami", "światło  nad szafkami"],
+					"id" : 2,
+					"actions" : [
+						{
+							"name" :["włącz", "załącz"],
+							"id" : "on",
+							"value": null
+						},
+						{
+							"name" : ["wyłącz"],
+							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["jasność", "ustaw jasność" ,""],
+							"id" : "bright",
+
+							"value": ["0|0%","0|5%", "10|10%", "20|20%", "30|30%", "40|40%", "50|50%",
+                              "60|60%", "70|70%", "80|80%", "90|90%", "100|100%"],
+
+                        "value-name": ["0","5", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"]
+
+
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
+
+						}
+					]
+				},
 				{
 					"name" :["oświetlenie górne", "światło góra"],
 					"id" : 1,
@@ -847,38 +882,7 @@
 						}
 					]
 				},
-				{
-					"name" :["oświetlenie nad szafkami", "światło  nad szafkami"],
-					"id" : 2,
-					"actions" : [
-						{
-							"name" :["włącz", "załącz"],
-							"id" : "on",
-							"value": null
-						},
-						{
-							"name" : ["wyłącz"],
-							"id" : "off",
-							"value": null
-						},
-						{
-							"name" : ["jasność", "ustaw jasność" ,""],
-							"id" : "bright",
 
-							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100",
-							"0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
-
-
-
-						},
-						{
-							"name" : ["przełącz","zmień stan"],
-							"id" : "xchg",
-							"value": null
-
-						}
-					]
-				},
 				{
 					"name" :["oświetlenie pod szafkami", "światło pod szafkami"],
 					"id" : 3,
@@ -901,7 +905,7 @@
 					]
 				},
 				{
-					"name" :["oświetlenie okapu", "światło okap"],
+					"name" :["oświetlenie okapu", "światło okap","światło okapu"],
 					"id" : 4,
 					"actions" : [
 						{
@@ -922,7 +926,7 @@
 					]
 				},
 				{
-					"name" :["okap","wentylacje okapu","wentylacja okapu"],
+					"name" :["okap","wentylacje okapu","wentylacja okapu","wentylator okapu"],
 					"id" : 5,
 					"actions" : [
 						{
