@@ -102,11 +102,18 @@ def recognize_command(input):
             if actionFound:
 
                 if(Json["value"]):
-
+                    """
                     for value in Json["value"]:
                         if value in input:
                             result="set "+result+" "+Id+" "+value
                             return result
+                    print("error set value is unavailable")
+                    """
+                    for value_idx in range(len(Json["value"])):
+                        for x in Json["value"][value_idx].split("|"):
+                            if x in input:
+                                result = "set " + result + " " + Id + " " + Json["value-name"][value_idx]
+                                return result
                     print("error set value is unavailable")
                     return None
                 elif(Id=="time") :
