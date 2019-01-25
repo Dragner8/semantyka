@@ -21,8 +21,10 @@
 							"value": null
 						},
 						{
-							"name" : ["przełcz", "zmień"],
-							"id" : "toggle",
+
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+
 							"value": null
 						}
 					]
@@ -39,6 +41,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -88,6 +95,11 @@
 							"name" : ["ścisz", "zmniejsz głośność","ciszej"],
 							"id" : "vol_down",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -104,6 +116,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -119,6 +136,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -137,6 +159,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -153,6 +180,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -168,6 +200,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -225,6 +262,11 @@
 							"name" : ["ścisz", "zmniejsz głośność"],
 							"id" : "vol_down",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -241,6 +283,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -256,6 +303,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -292,8 +344,12 @@
 							"name" : ["barwa zimna", "zimne"],
 							"id" : "cold",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
-
 					]
 				},
 				{
@@ -308,6 +364,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -325,6 +386,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -340,6 +406,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -397,6 +468,11 @@
 							"name" : ["ścisz", "zmniejsz głośność"],
 							"id" : "vol_down",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -413,6 +489,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -428,6 +509,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -474,6 +560,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -489,6 +580,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -506,8 +602,12 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
-
 					]
 				},
 
@@ -523,6 +623,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -540,11 +645,17 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				}
 			]
 		},
+
 
 		{
 			"name" : ["salon","salonie"],
@@ -562,6 +673,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -583,8 +699,18 @@
 						{
 							"name" : ["kolor", "ustaw kolor"],
 							"id" : "color",
+
 							"value": ["czerwony|czerwono","zielony|zielono","niebieski|niebiesko"],
                             "value-name": ["red","green","blue"]
+
+							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
+							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
+
 						}
 					]
 				},
@@ -622,6 +748,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -709,6 +840,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -729,8 +865,17 @@
 						{
 							"name" : ["jasność", "ustaw jasność" ,""],
 							"id" : "bright",
+
 							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100",
 							"0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
+
+							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"]
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
+
 						}
 					]
 				},
@@ -747,6 +892,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -762,6 +912,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
@@ -789,6 +944,11 @@
 							"name" : ["szybko","szybciej","przyśpiesz"],
 							"id" : "fast",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -805,6 +965,11 @@
 							"name" : ["wyłącz"],
 							"id" : "off",
 							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
+							"value": null
 						}
 					]
 				},
@@ -820,6 +985,11 @@
 						{
 							"name" : ["wyłącz"],
 							"id" : "off",
+							"value": null
+						},
+						{
+							"name" : ["przełącz","zmień stan"],
+							"id" : "xchg",
 							"value": null
 						}
 					]
