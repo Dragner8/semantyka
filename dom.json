@@ -21,8 +21,10 @@
 							"value": null
 						},
 						{
+
 							"name" : ["przełącz","zmień stan"],
 							"id" : "xchg",
+
 							"value": null
 						}
 					]
@@ -65,7 +67,8 @@
 						{
 							"name" : ["ustaw kanał", "kanał"],
 							"id" : "ch",
-							"value": ["1","2","3","4","5","6"]
+							"value": ["1|pierwszy","2|drugi","3|trzeci","4|czwarty","5|piąty","6|szósty"],
+                            "value-name": ["1","2","3","4","5","6"]
 						},
 						{
 							"name" : ["następny kanał", "następny"],
@@ -80,7 +83,8 @@
 						{
 							"name" : ["ustaw głośność", "głośność"],
 							"id" : "vol",
-							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+                          "value-name": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
 							"name" : ["pogłośnij", "zwiększ głośność", "głośniej"],
@@ -88,7 +92,7 @@
 							"value": null
 						},
 						{
-							"name" : ["ścisz", "zmniejsz głośność"],
+							"name" : ["ścisz", "zmniejsz głośność","ciszej"],
 							"id" : "vol_down",
 							"value": null
 						},
@@ -222,7 +226,13 @@
 						{
 							"name" : ["ustaw kanał", "kanał"],
 							"id" : "ch",
-							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
+							"value": ["1|pierwszy","2|drugi","3|trzeci","4|czwarty","5|piąty","6|szósty",
+                              "7|siódmy","8|ósmy","9|dziewiąty","10|dziesiąty","11|jedenasty","12|dwunasty",
+                              "13|trzynasty","14|czternasty","15|piętnasty","16|szesnasty",
+								"17|siedemnasty", "18|osiemnasty", "19|dziewiętnasty", "20|dwudziesty",
+                              "21", "22", "23", "24", "25", "26", "27", "28", "29",
+								"30", "31", "32"],
+                          "value-name": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
 								"17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
 								"30", "31", "32"]
 						},
@@ -240,7 +250,8 @@
 						{
 							"name" : ["ustaw głośność", "głośność"],
 							"id" : "vol",
-							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+                          "value-name": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
 							"name" : ["pogłośnij", "zwiększ głośność","głośniej"],
@@ -307,11 +318,11 @@
 
 
 		{
-			"name" : ["sypialnia"],
+			"name" : ["sypialnia","pokój nocny","pokój do spania"],
 			"id" : "B",
 			"devices" : [
 				{
-					"name" : ["oświetlenie górne", "światło góra"],
+					"name" : ["oświetlenie górne", "światło góra","światło główne","oświetlenie główne","światło"],
 					"id" : 1,
 					"actions" : [
 						{
@@ -326,12 +337,12 @@
 						},
 						{
 							"name" : ["barwa ciepła","ciepłe"],
-							"id" : "cold",
+							"id" : "worm",
 							"value": null
 						},
 						{
 							"name" : ["barwa zimna", "zimne"],
-							"id" : "worm",
+							"id" : "cold",
 							"value": null
 						},
 						{
@@ -421,7 +432,13 @@
 						{
 							"name" : ["ustaw kanał", "kanał"],
 							"id" : "ch",
-							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
+							"value": ["1|pierwszy","2|drugi","3|trzeci","4|czwarty","5|piąty","6|szósty",
+                              "7|siódmy","8|ósmy","9|dziewiąty","10|dziesiąty","11|jedenasty","12|dwunasty",
+                              "13|trzynasty","14|czternasty","15|piętnasty","16|szesnasty",
+								"17|siedemnasty", "18|osiemnasty", "19|dziewiętnasty", "20|dwudziesty",
+                              "21", "22", "23", "24", "25", "26", "27", "28", "29",
+								"30", "31", "32"],
+                           "value-name": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
 								"17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
 								"30", "31", "32"]
 						},
@@ -439,7 +456,8 @@
 						{
 							"name" : ["ustaw głośność", "głośność"],
 							"id" : "vol",
-							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
+							"value": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+                          "value-name": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"]
 						},
 						{
 							"name" : ["pogłośnij", "zwiększ głośność"],
@@ -640,7 +658,7 @@
 
 
 		{
-			"name" : ["salon"],
+			"name" : ["salon","salonie"],
 			"id" : "D",
 			"devices" : [
 				{
@@ -681,6 +699,10 @@
 						{
 							"name" : ["kolor", "ustaw kolor"],
 							"id" : "color",
+
+							"value": ["czerwony|czerwono","zielony|zielono","niebieski|niebiesko"],
+                            "value-name": ["red","green","blue"]
+
 							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
 							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
 						},
@@ -688,6 +710,7 @@
 							"name" : ["przełącz","zmień stan"],
 							"id" : "xchg",
 							"value": null
+
 						}
 					]
 				},
@@ -708,8 +731,8 @@
 						{
 							"name" : ["kolor", "ustaw kolor"],
 							"id" : "color",
-							"value": ["biały", "szary", "czarny", "czerwony", "żółty", "zielony", "niebieski",
-							"fioletowy", "pomarańczowy", "brązowy", "różowy", "złoty", "srebrny", "seledynowy"]
+							"value": ["czerwony|czerwono","zielony|zielono","niebieski|niebiesko"],
+                            "value-name": ["red","green","blue"]
 						}
 					]
 				},
@@ -840,14 +863,19 @@
 							"value": null
 						},
 						{
-							"name" : ["jasność", "ustaw jasność"],
+							"name" : ["jasność", "ustaw jasność" ,""],
 							"id" : "bright",
+
+							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100",
+							"0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
+
 							"value": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"]
 						},
 						{
 							"name" : ["przełącz","zmień stan"],
 							"id" : "xchg",
 							"value": null
+
 						}
 					]
 				},
